@@ -1,6 +1,6 @@
 ---
 include:
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: pedanticv4_dongle prospector_adapter
     snippet: zmk-usb-logging;studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
