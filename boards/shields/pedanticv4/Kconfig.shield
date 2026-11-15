@@ -1,9 +1,8 @@
+config SHIELD_pedanticv4_DONGLE
+    def_bool $(shields_list_contains,pedanticv4_dongle)
 
 config SHIELD_pedanticv4_LEFT
     def_bool $(shields_list_contains,pedanticv4_left)
 
 config SHIELD_pedanticv4_RIGHT
     def_bool $(shields_list_contains,pedanticv4_right)
-
-config SHIELD_pedanticv4_DONGLE
-    def_bool $(shields_list_contains,pedanticv4_dongle)

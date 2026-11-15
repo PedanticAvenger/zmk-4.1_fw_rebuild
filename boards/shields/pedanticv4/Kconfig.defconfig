@@ -1,5 +1,5 @@
 
-if SHIELD_pedanticv4_LEFT
+if SHIELD_pedanticv4_DONGLE
 
 config ZMK_KEYBOARD_NAME
     default "Pedantic-v4"
@@ -7,11 +7,11 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-endif # SHIELD_pedanticv4_LEFT
+endif # SHIELD_pedanticv4_DONGLE
 
-if SHIELD_pedanticv4_LEFT || SHIELD_pedanticv4_RIGHT
+if SHIELD_pedanticv4_LEFT || SHIELD_pedanticv4_RIGHT || SHIELD_pedanticv4_DONGLE
 
 config ZMK_SPLIT
     default y
 
-endif # SHIELD_pedanticv4_LEFT || SHIELD_pedanticv4_RIGHT
+endif # SHIELD_pedanticv4_LEFT || SHIELD_pedanticv4_RIGHT || SHIELD_pedanticv4_DONGLE
