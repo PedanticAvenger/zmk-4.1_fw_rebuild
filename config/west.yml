@@ -8,9 +8,14 @@ manifest:
       url-base: https://github.com/carrefinho
   projects:
     - name: zmk
-      remote: rianadon
+      remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: rianadon-zmk-board-defs
+      remote: rianadon
+      repo-path: zmk
+      revision: main
+      path: modules/rianadon-zmk-board-defs
     - name: prospector-zmk-module 
       remote: carrefinho
       revision: feat/new-status-screens
