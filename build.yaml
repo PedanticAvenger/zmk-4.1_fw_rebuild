@@ -1,8 +1,10 @@
 ---
 include:
-  - board: cosmos_lemon_wireless
-    shield: pedanticv4_left
+  - board: xiao_ble//zmk
+    shield: pedanticv4_dongle prospector_adapter
     snippet: zmk-usb-logging;studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: cosmos_lemon_wireless
+    shield: pedanticv4_left
   - board: cosmos_lemon_wireless
     shield: pedanticv4_right

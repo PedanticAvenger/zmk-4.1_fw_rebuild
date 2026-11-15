@@ -4,11 +4,16 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: rianadon
       url-base: https://github.com/rianadon
+    - name: carrefinho
+      url-base: https://github.com/carrefinho
   projects:
     - name: zmk
       remote: rianadon
       revision: main
       import: app/west.yml
+    - name: prospector-zmk-module 
+      remote: carrefinho
+      revision: feat/new-status-screens
   self:
     path: config
     import: deps.yml
