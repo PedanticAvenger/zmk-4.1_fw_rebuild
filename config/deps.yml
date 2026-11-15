@@ -4,8 +4,6 @@ manifest:
       url-base: https://github.com/sadekbaroudi
     - name: rianadon
       url-base: https://github.com/rianadon
-    - name: pedantic
-      url-base: https://github.com/pedanticavenger
   projects:
     - name: zmk-fingerpunch-vik
       remote: rianadon

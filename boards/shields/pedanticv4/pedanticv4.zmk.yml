@@ -1,6 +1,6 @@
 file_format: "1"
-id: Cosmos
-name: Cosmos
+id: pedanticv4
+name: Pedantic-v4
 type: shield
 url: https://github.com/rianadon/Cosmos-Keyboards
 features:
@@ -9,5 +9,5 @@ features:
   - encoder
   - studio
 siblings:
-  - Cosmos_left
-  - Cosmos_right
+  - pedanticv4_left
+  - pedanticv4_right

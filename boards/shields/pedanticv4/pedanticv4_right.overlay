@@ -1,13 +1,17 @@
-#include "pedantic1.dtsi"
+#include "pedanticv4.dtsi"
 
 / {
     bootloader_key: bootloader_key {
         compatible = "zmk,boot-magic-key";
-        key-position = <0>;
+        key-position = <53>;
         jump-to-bootloader;
     };
 };
 
-&left_encoder {
+&default_transform {
+    col-offset = <7>;
+};
+
+&right_encoder {
     status = "okay";
 };
