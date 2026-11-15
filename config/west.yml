@@ -2,8 +2,6 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: rianadon
-      url-base: https://github.com/rianadon
     - name: carrefinho
       url-base: https://github.com/carrefinho
   projects:
@@ -11,11 +9,6 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: rianadon-zmk-board-defs
-      remote: rianadon
-      repo-path: zmk
-      revision: main
-      path: modules/rianadon-zmk-board-defs
     - name: prospector-zmk-module 
       remote: carrefinho
       revision: feat/new-status-screens
