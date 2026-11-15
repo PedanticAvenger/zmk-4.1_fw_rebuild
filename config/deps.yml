@@ -8,4 +8,7 @@ manifest:
     - name: zmk-fingerpunch-vik
       remote: rianadon
       revision: main
-      import: config/deps.yml
+      import:
+        file: config/deps.yml
+        name-blocklist:
+          - cirque-input-module
