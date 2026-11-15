@@ -9,5 +9,6 @@ features:
   - encoder
   - studio
 siblings:
+  - pedanticv4_dongle
   - pedanticv4_left
   - pedanticv4_right
