@@ -1,14 +1,10 @@
 manifest:
   remotes:
-    - name: sadekbaroudi
-      url-base: https://github.com/sadekbaroudi
     - name: rianadon
       url-base: https://github.com/rianadon
   projects:
     - name: cosmos-zmk-module
       remote: rianadon
       revision: main
-      import:
-        file: config/deps.yml
-        name-blocklist:
-          - cirque-input-module
+      import: config/deps.yml
+
