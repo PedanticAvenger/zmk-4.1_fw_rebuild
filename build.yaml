@@ -7,8 +7,10 @@ include:
     artifact-name: pedanticv4-dongle-zmk
   - board: lemon_wireless
     shield: pedanticv4_left
+    snippet: zmk-usb-logging
   - board: lemon_wireless
     shield: pedanticv4_right
+    snippet: zmk-usb-logging
   - board: xiao_ble//zmk
     shield: settings_reset
     artifact-name: xiao-reset-zmk
