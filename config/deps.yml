@@ -6,5 +6,10 @@ manifest:
     - name: cosmos-zmk-module
       remote: rianadon
       revision: main
-      import: config/deps.yml
-
+    - name: zmk-fingerpunch-vik
+      remote: rianadon
+      revision: main
+      import:
+        file: config/deps.yml
+        name-blocklist:
+          - cirque-input-module
