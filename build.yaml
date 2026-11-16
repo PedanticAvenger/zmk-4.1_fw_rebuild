@@ -5,7 +5,7 @@ include:
     snippet: zmk-usb-logging;studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: pedanticv4-dongle-zmk
-  - board: cosmos_lemon_wireless
+  - board: lemon_wireless
     shield: pedanticv4_left
-  - board: cosmos_lemon_wireless
+  - board: lemon_wireless
     shield: pedanticv4_right

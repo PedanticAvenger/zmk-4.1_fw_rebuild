@@ -5,7 +5,7 @@ manifest:
     - name: rianadon
       url-base: https://github.com/rianadon
   projects:
-    - name: zmk-fingerpunch-vik
+    - name: cosmos-zmk-module
       remote: rianadon
       revision: main
       import:
