@@ -11,5 +11,7 @@ include:
     shield: pedanticv4_right
   - board: xiao_ble//zmk
     shield: settings_reset
+    artifact-name: xiao-reset-zmk
   - board: lemon_wireless
     shield: settings_reset
+    artifact-name: lemon-reset-zmk
