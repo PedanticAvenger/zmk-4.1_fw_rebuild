@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: carrefinho
       url-base: https://github.com/carrefinho
+    - name: rianadon
+      url-base: https://github.com/rianadon
   projects:
     - name: zmk
       remote: zmkfirmware
