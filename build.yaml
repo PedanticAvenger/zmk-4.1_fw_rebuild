@@ -5,15 +5,19 @@ include:
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: dongle-zmk
+
   - board: lemon_wireless
     shield: pedanticv4_left
     artifact-name: left-zmk
+
   - board: lemon_wireless
     shield: pedanticv4_right
     artifact-name: right-zmk
+
   - board: xiao_ble//zmk
     shield: settings_reset
     artifact-name: dongle-reset-zmk
+    
   - board: lemon_wireless
     shield: settings_reset
     artifact-name: kbd-reset-zmk

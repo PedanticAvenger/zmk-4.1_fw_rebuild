@@ -3,6 +3,11 @@
 
 / {
     chosen {
+        /delete-property/ zephyr,console;
+        /delete-property/ zephyr,shell-uart;
+        /delete-property/ zephyr,uart-mcumgr;
+        /delete-property/ zephyr,bt-mon-uart;
+        /delete-property/ zephyr,bt-c2h-uart;
         zmk,kscan = &mock_kscan;
         zmk,physical-layout = &default_layout;
     };
@@ -13,4 +18,8 @@
         rows = <0>;
         events = <0>;
     };
+};
+
+&board_cdc_acm_uart {
+    status = "disabled";
 };
