@@ -1,0 +1,13 @@
+# Local build output (podman builds write here)
+build/
+
+# West workspace artifacts — the workspace lives outside this repo
+# (~/zmk-west-workspace); ignore them if a west init/update lands here again.
+.west/
+zmk/
+modules/
+optional/
+cosmos-zmk-module/
+prospector-zmk-module/
+zmk-fingerpunch-vik/
+zmk-pmw3610-driver/
