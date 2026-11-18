@@ -1,5 +1,6 @@
 #include "pedanticv4-transform.dtsi"
 #include "pedanticv4-layouts.dtsi"
+#include "pedanticv4-encoders.dtsi"
 
 / {
     chosen {
